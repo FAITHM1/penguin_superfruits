@@ -13,6 +13,7 @@ const fruitSchema = new Schema({
   name: String,
   color: String,
   readyToEat: Boolean,
+  username: String,
 });
 //make the fruit model
 const Fruit = model("Fruit", fruitSchema);
